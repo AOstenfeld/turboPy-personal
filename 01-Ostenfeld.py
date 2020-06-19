@@ -1,6 +1,6 @@
 n = int(input("Upper bound?")) #Asks the user for the highest number they want to display
 if n <= 0:
-    raise Exception("Upper bound must be positive")
+    raise Exception("Upper bound must be positive") # Raises an exception if n is negative
 a = 0
 b = 1
 print(a)
